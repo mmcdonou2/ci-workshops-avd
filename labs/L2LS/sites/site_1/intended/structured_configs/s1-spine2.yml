@@ -61,7 +61,7 @@ vlan_interfaces:
   description: MLAG_PEER_L3_PEERING
   shutdown: false
   mtu: 1500
-  ip_address: 10.1.253.3/31
+  ip_address: 10.1.254.1/31
   ospf_network_point_to_point: true
   ospf_area: 0.0.0.0
 - name: Vlan4094

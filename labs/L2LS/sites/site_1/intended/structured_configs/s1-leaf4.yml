@@ -53,7 +53,7 @@ vlan_interfaces:
   shutdown: false
   no_autostate: true
   mtu: 1500
-  ip_address: 10.1.253.1/31
+  ip_address: 10.1.253.5/31
 port_channel_interfaces:
 - name: Port-Channel1
   description: MLAG_PEER_s1-leaf3_Po1
@@ -132,7 +132,7 @@ ethernet_interfaces:
 mlag_configuration:
   domain_id: RACK2
   local_interface: Vlan4094
-  peer_address: 10.1.253.0
+  peer_address: 10.1.253.4
   peer_link: Port-Channel1
   reload_delay_mlag: '300'
   reload_delay_non_mlag: '330'
